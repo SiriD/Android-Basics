@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android Basics</string>
+
+    <!-- Intents -->
+    <string name="buttonExplicit">Press for explicit intent</string>
+    <string name="buttonImplicit">Press for implicit intent</string>
 </resources>
