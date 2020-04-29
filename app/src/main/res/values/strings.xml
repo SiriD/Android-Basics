@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">Android Basics</string>
 
+    <!--  Main  -->
+    <string name="bLifecycle">Android Lifecycle</string>
+    <string name="bIntents">Intents</string>
+    <string name="bFragments">Fragments</string>
+
+    <!-- Lifecycle   -->
+    <string name="tvIntents">Check the Logcat for order of lifecycle methods</string>
+
     <!-- Intents -->
     <string name="buttonExplicit">Press for explicit intent</string>
     <string name="buttonImplicit">Press for implicit intent</string>

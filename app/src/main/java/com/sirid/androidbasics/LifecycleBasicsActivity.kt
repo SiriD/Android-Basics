@@ -3,15 +3,14 @@ package com.sirid.androidbasics
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
-import kotlin.math.log
 
 class LifecycleBasicsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.d("onCreate", "onCreate called")
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_lifecycle)
+
     }
 
     override fun onStart() {
@@ -43,4 +42,5 @@ class LifecycleBasicsActivity : AppCompatActivity() {
         super.onDestroy()
         Log.d("onDestroy", "onDestroy called")
     }
+
 }
