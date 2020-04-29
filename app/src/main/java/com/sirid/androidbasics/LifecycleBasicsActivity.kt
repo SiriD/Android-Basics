@@ -6,7 +6,7 @@ import android.util.Log
 import android.widget.Toast
 import kotlin.math.log
 
-class MainActivity : AppCompatActivity() {
+class LifecycleBasicsActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
