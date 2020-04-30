@@ -12,6 +12,7 @@
     <!-- Intents -->
     <string name="buttonExplicit">Press for explicit intent</string>
     <string name="buttonImplicit">Press for implicit intent</string>
+    <string name="someToast">Started new Activity using explicit intent.</string>
 
     <!-- Fragments   -->
     <string name="bFragment1">Fragment 1</string>
@@ -19,5 +20,6 @@
     <string name="tvFragment">Placeholder for fragment stuff</string>
     <string name="first_fragment">first fragment</string>
     <string name="second_fragment">second fragment</string>
+    <string name="tvFragmentLifecycle">Check logcat to see first fragment lifecycle</string>
 
 </resources>
