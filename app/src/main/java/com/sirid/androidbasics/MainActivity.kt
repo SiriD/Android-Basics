@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.sirid.androidbasics.fragmentsbasics.FragmentBasicsActivity
 import com.sirid.androidbasics.intentsbasics.IntentsBasicsActivity
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +21,11 @@ class MainActivity : AppCompatActivity() {
         val bIntents = findViewById<Button>(R.id.bIntents)
         bIntents.setOnClickListener {
             startActivity(Intent(this, IntentsBasicsActivity::class.java))
+        }
+
+        val bFragments = findViewById<Button>(R.id.bFragments)
+        bFragments.setOnClickListener {
+            startActivity(Intent(this, FragmentBasicsActivity::class.java))
         }
     }
 }

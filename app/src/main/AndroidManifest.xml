@@ -11,15 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".fragmentsbasics.FragmentBasicsActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".intentsbasics.NewIntentActivity" />
-        <activity android:name=".intentsbasics.IntentsBasicsActivity"/>
-        <activity android:name=".LifecycleBasicsActivity"/>
+        <activity android:name=".intentsbasics.IntentsBasicsActivity" />
+        <activity android:name=".LifecycleBasicsActivity" />
     </application>
 
 </manifest>
