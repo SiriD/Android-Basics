@@ -12,4 +12,12 @@
     <!-- Intents -->
     <string name="buttonExplicit">Press for explicit intent</string>
     <string name="buttonImplicit">Press for implicit intent</string>
+
+    <!-- Fragments   -->
+    <string name="bFragment1">Fragment 1</string>
+    <string name="bFragment2">Fragment 2</string>
+    <string name="tvFragment">Placeholder for fragment stuff</string>
+    <string name="first_fragment">first fragment</string>
+    <string name="second_fragment">second fragment</string>
+
 </resources>
